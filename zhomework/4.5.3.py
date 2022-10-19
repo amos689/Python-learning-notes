@@ -1,0 +1,47 @@
+from math import pi
+import turtle as t
+import random as rd
+r1=eval(input())
+print("圆的周长为{}".format(2*pi*r1))
+r2=eval(input())
+print("圆的面积为{}".format(pi*r2**2))
+a=rd.randint(1,100)
+while(True):
+    print("请猜一到一百的正整数数")
+    b=eval(input())
+    if b==a:
+        print("正确")
+        break
+    elif(b<a):
+        print("小了")
+    elif(b>a):
+        print("大了")
+t.screensize(1000,1000)
+t.pensize(4)
+t.circle(100)
+t.left(60)
+t.fd(100*3**0.5)
+t.left(120)
+t.fd(100*3**0.5)
+t.left(120)
+t.fd(100*3**0.5)
+t.penup()
+t.right(30)
+t.fd(200)
+t.fd(70)
+t.left(90)
+t.pendown()
+t.circle(70)
+t.right(90)
+t.penup()
+t.fd(30)
+t.left(90)
+t.pendown()
+t.circle(100)
+t.right(90)
+t.penup()
+t.fd(30)
+t.left(90)
+t.pendown()
+t.circle(130)
+t.done()

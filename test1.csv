@@ -1,0 +1,11 @@
+('Gender', 0    Female
+1      Male
+2      Male
+3    Female
+4      Male
+Name: Gender, dtype: object)('Name', 0      Gaopeng Yang
+1    Changqiang You
+2           Mei Sun
+3      Xiaojuan Sun
+4       Gaojuan You
+Name: Name, dtype: object)

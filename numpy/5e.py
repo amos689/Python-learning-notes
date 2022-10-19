@@ -1,0 +1,19 @@
+import numpy as np
+#块，行，列
+t1=np.zeros((3,2,4),dtype=int)
+print(t1,t1.dtype,end='\n\n')
+t2=np.identity(3)
+print(t2,end='\n\n')
+#可创不同维度
+t3=np.random.randint(6,18,5)
+t4=np.random.randint(6,18,(3,2))
+print(t3,'\n',t4,end='\n\n')
+#生成5个[0,1)的数
+t5=np.random.rand(5)
+print(t5,end='\n\n')
+#生成对角线矩阵
+t6=np.diag([1,2,3,4])
+print(t6,end='\n\n')
+#生成单位矩阵
+t7=np.identity(4)
+print(t7,end='\n\n')
